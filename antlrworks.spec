@@ -1,6 +1,6 @@
 Name:           antlrworks
 Version:        1.4
-Release:        5
+Release:        7
 Summary:        Grammar development environment for ANTLR v3 grammars
 
 Group:          Development/Java
