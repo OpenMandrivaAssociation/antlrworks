@@ -1,0 +1,13 @@
+diff -up ./build.xml.orig ./build.xml
+--- ./build.xml.orig	2010-05-09 21:50:20.000000000 +0200
++++ ./build.xml	2010-05-14 16:36:46.210118611 +0200
+@@ -63,9 +63,6 @@
+             <fileset dir="${aw.resources}"/>
+             <fileset dir="${build.dir}" includes="**/*.class"/>
+ 
+-            <zipfileset src="${aw.lib}/${antlr3.jar}" excludes="**/*.txt"/>
+-            <zipfileset src="${aw.lib}/${jgoodies.jar}"/>
+-
+             <manifest>
+                 <attribute name="Version" value="${version}"/>
+                 <attribute name="Main-Class" value="org.antlr.works.IDE"/>
