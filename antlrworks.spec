@@ -5,7 +5,7 @@ Summary:        Grammar development environment for ANTLR v3 grammars
 
 Group:          Development/Java
 License:        BSD
-URL:            http://www.antlr.org/works
+URL:            https://www.antlr.org/works
 Source0:        http://www.antlr.org/download/%{name}-%{version}-src.zip
 Source1:        antlrworks.sh
 Source2:        antlrworks.desktop
